@@ -1,3 +1,8 @@
+"""
+Recursively scans the configured folder and writes a text inventory of its files,
+grouped by filename prefix, with file sizes and sample lines.
+"""
+
 import os
 import zipfile
 from pathlib import Path
